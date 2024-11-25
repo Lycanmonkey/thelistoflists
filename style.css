@@ -1,0 +1,69 @@
+body{
+	background-color: #A6DDFF;}
+.navban {
+	background-color: black;
+	overflow: hidden;}
+.navban a:link {
+	float: left;
+	color: Grey;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;}
+.navban a:visited {
+	color: Red;}
+.navban a:hover {
+	background-color: Yellow;}
+.navban a.active {
+	background-color: Green;}
+h1 {
+	font-family:Times, serif;
+	font-size: 50px;
+	color: Yellow;
+	text-align: center;}
+caption {
+	font-family:Times, serif;
+	font-size: 30px;
+	text-align: center;}
+table {
+	width: 100%;}
+table, th, td {
+	border: 1px solid Black;
+	border-collapse: collapse;}
+th, td {
+	text-align: center;
+	height: 10px;
+	font-size: 20px;
+	vertical-align: middle;
+	padding: 5px;}
+h2 {
+	font-family:Times, serif;
+	font-size: 30px;
+	color: Red;
+	text-align: center;}
+p {
+	font-family:Times, serif;
+	font-size: 20px;
+	text-align: justify;}
+span.boldtext {
+	font-weight: bold;}
+span.italictext {
+	font-style: italic;}
+h2 {
+	font-family:Times, serif;
+	font-size: 30px;
+	text-align: left;}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;}
+label, fieldset {
+	font-family:Times, serif;
+	font-size: 30px;
+	text-align: justify;}
+textarea {
+	font-size: 20px;}
+option {
+	font-size: 20px;}
