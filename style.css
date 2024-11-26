@@ -1,5 +1,17 @@
 body{
 	background-color: #A6DDFF;}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	text-align: center;}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	text-align: center;}
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	text-align: justify;}
 .navban {
 	background-color: black;
 	overflow: hidden;}
@@ -16,11 +28,6 @@ body{
 	background-color: Yellow;}
 .navban a.active {
 	background-color: Green;}
-h1 {
-	font-family:Times, serif;
-	font-size: 50px;
-	color: Yellow;
-	text-align: center;}
 caption {
 	font-family:Times, serif;
 	font-size: 30px;
@@ -36,34 +43,15 @@ th, td {
 	font-size: 20px;
 	vertical-align: middle;
 	padding: 5px;}
-h2 {
-	font-family:Times, serif;
-	font-size: 30px;
-	color: Red;
-	text-align: center;}
-p {
-	font-family:Times, serif;
-	font-size: 20px;
-	text-align: justify;}
 span.boldtext {
 	font-weight: bold;}
 span.italictext {
 	font-style: italic;}
-h2 {
-	font-family:Times, serif;
-	font-size: 30px;
-	text-align: left;}
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	height: 50%;}
-label, fieldset {
-	font-family:Times, serif;
-	font-size: 30px;
-	text-align: justify;}
 textarea {
-	font-size: 20px;}
+	font-size: 20px;
+	width: 75%;
+	border: 1px solid Black;
+	border-collapse: collapse;
+	padding: 5px;}
 option {
 	font-size: 20px;}
