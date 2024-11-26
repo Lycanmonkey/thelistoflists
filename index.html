@@ -3,12 +3,12 @@
 <head>
 	<meta Charset="UTF-8">
 	<meta name="Description" content="Lists">
-	<meta name="Keywords" content="HTML, Application, Lists, Website, Capstone, Final">
+	<meta name="Keywords" content="HTML, Application, Lists, Website, Capstone, Final, Home">
 	<meta name="Author" content="Branden Bruce">
 	<title>The List Of Lists</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+	<link rel="stylesheet" type="text/css" href="style.css"></head>
 <body>
+<p>Disclaimer: The website is a work in progress, not all features are available.</p>
 	<div class="navban">
 		<a class="active" href="index.html">Lists</a>
 		<a href="about.html">About</a>
@@ -18,20 +18,35 @@
 	<table>
 		<caption><span class="italictext">The List Of Lists</span></caption>
 		<tr>
-				<th><input type="text" id="email" name="email"><br>
-					<input type="Submit" value="Email"></th>
-				<th><button onclick="myFunction()" id="add">Add Box</button></th>
-						<script>
-							function myFunction() {
-							var x = document.createElement("textarea");
-							var t = document.createTextNode("Input Text Here...");
-								x.appendChild(t);
-								document.body.appendChild(x);}</script>
-				<th><input type="Submit" value="Delete Box"></th></tr>
-		<tr>
-			<th><textarea name="List" rows="1" cols="10">List Title</textarea><br></th>
-			<th><textarea name="List" rows="1" cols="10">List Title</textarea><br></th>
-			<th><textarea name="List" rows="1" cols="10">List Title</textarea><br></th>
+				<th><input type="email" id="email" value="jdoe@email.com"><br>
+					<button onclick="myFunctionMail()" id="myEmail">Email</button></th>
+				<th><button onclick="myFunctionAdd()" id="add">Add Boxes</button></th>
+					<script>
+						function myFunctionAdd() {
+						var x = document.createElement("textarea");
+						var t = document.createTextNode("Input Text Here...");
+							x.id = "textarea1"
+						var xx = document.createElement("textarea");
+						var tt = document.createTextNode("Input Text Here...");
+							xx.id = "textarea2"
+						var xxx = document.createElement("textarea");
+						var ttt = document.createTextNode("Input Text Here...");
+							xxx.id = "textarea3"
+							x.appendChild(t);
+							document.body.appendChild(x);
+							xx.appendChild(tt);
+							document.body.appendChild(xx);
+							xxx.appendChild(ttt);
+							document.body.appendChild(xxx);}</script>
+				<th><button onclick="myFunctionDel()" id="del">Delete Boxes</button></th>
+					<script>
+						function myFunctionDel() {
+							element = document.getElementById("textarea1");
+							element.remove();
+							element = document.getElementById("textarea2");
+							element.remove();
+							element = document.getElementById("textarea3");
+							element.remove();}</script></tr>
 		<tr>
 			<td><textarea name="comments" rows="15" cols="50">Input Text Here...</textarea><br></td>
 			<td><textarea name="comments" rows="15" cols="50">Input Text Here...</textarea><br></td>
